@@ -1,0 +1,5 @@
+name: Roblib Custom Address Fields
+type: module
+description: 'This module does absolutely nothing. Or something. Could be interesting.'
+package: Roblib
+core: 8.x

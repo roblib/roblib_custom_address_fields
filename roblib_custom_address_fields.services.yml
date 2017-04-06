@@ -1,0 +1,7 @@
+services:
+
+  # Defines a simple service of which requires no parameter for its constructor.
+  roblib_custom_address_fields.addressformatsubscriber:
+    class: Drupal\roblib_custom_address_fields\EventSubscriber\AddressFormatSubscriber
+    tags:
+      - { name: event_subscriber }
