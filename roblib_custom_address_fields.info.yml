@@ -1,5 +1,5 @@
 name: Roblib Custom Address Fields
 type: module
-description: 'This module does absolutely nothing. Or something. Could be interesting.'
+description: 'Simple module which removes the need for Address module address fields to be required fields.'
 package: Roblib
 core: 8.x
