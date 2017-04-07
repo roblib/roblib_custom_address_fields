@@ -14,21 +14,19 @@ class AddressFormatSubscriber implements EventSubscriberInterface {
     public function onGetDefinition($event) {
         $definition = $event->getDefinition();
         
-	// debugging
+	// Debugging
 	//print_r($definition['required_fields']);	
         
 	//echo "<pre>";
         //print_r($definition);
         //echo "</pre>";
 	    
-	// This makes city (locality) field required and leaves
-        // the rest address fields as optional
+	// Make city (locality) field required.
         //$definition['required_fields'] = ['administrativeArea'];
-unset($definition['required_fields']);
-//unset($definition['postal_code_pattern']);
-        //$definition['required_fields'] = NULL;
+
+	// No required Address fields.
+	unset($definition['required_fields']);
         
 	$event->setDefinition($definition);
     }
-
 }
