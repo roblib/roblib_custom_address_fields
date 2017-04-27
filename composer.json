@@ -1,0 +1,7 @@
+{
+  "name": "roblib/roblib_custom_address_fields",
+  "description": "Simple module which removes the need for Address module address fields to be required fields.",
+  "type": "drupal-custom-module",
+  "minimum-stability": "dev",
+  "require": { }
+}
